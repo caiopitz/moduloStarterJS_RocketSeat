@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores lógicos</title>
+</head>
+<body>
+    <script>
+
+        
+        /** and ( && ), or ( || ) ,not ( ! ) **/
+
+        var sexo  ='M' , idade = 23          /**  2 formas de de fazer operadores logicos **/
+
+        if ( sexo === 'M' && idade >= 18 ){
+            console.log('OK');
+            
+        }
+         if (sexo ==='F' || idade >= 18){
+            console.log('Ok');
+
+        
+        }
+        if (sexo !=='F' || idade >= 18){
+            console.log('erro');
+        }
+
+
+
+
+        var masculino = sexo ==='M'
+        console.log(masculino);
+
+
+
+
+    </script>
+</body>
+</html>

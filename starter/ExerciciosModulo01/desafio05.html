@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 05</title>
+</head>
+<body>
+    <script>
+
+        
+
+var usuarios = [
+ {
+     nome: "Diego",
+     habilidades: ["Javascript", " ReactJS", " Redux"]
+ },
+ {
+     nome: "Gabriel",
+     habilidades: ["VueJS", " Ruby on Rails", " Elixir"]
+ }
+]
+
+
+for(var usuario of usuarios){
+    console.log("O " + usuario.nome + " possue as habilidades "+ usuario.habilidades.join());
+}
+
+/**Dica: Para percorrer um vetor você deve utilizar a sintaxe for...of e para unir valores de um array
+com um separador utilize o join.**/
+
+    </script>
+</body>
+</html>
